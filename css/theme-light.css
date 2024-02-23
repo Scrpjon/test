@@ -87,3 +87,270 @@ nav ul li ul li {
     }
 }
 
+@media (max-width: 1600px) and (max-height: 900px) {
+    header .logo {
+        font-size: 40px;
+        font-weight: 900;
+        color: #000;
+    }
+    header nav ul a {
+        padding: 15px;
+        color: #000;
+        font-size: 26px;
+        display: block;
+        font-weight: 700;
+    }
+    nav ul li ul {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        width: 200px;
+        background: #fff;
+        display: none;
+    }
+    nav ul li ul li ul {
+        width: 100%;
+        width: 200px;
+        top: 49px;
+        left: -1px;
+    }
+    #dark {
+        background: #fff;
+        border: #fff;
+        color: rgb(0,159,205);
+        font-size: 25px;
+        font-weight: 700;
+        height: 50px;
+        width: 200px;
+    }
+    #light {
+        background-color: #000;
+        border: #000;
+        color: rgb(0,159,205);
+        font-size: 24.1px;
+        font-weight: 700;
+        height: 50px;
+        width: 200px;
+    }
+    .text3 {
+        position: absolute;
+        left: 428px;
+        top: 1120px;
+        padding: 15px;
+        color: #000;
+        font-size: 50px;
+        display: block;
+        font-weight: 1000;
+        letter-spacing: -5px;
+        word-wrap: break-word;
+        width: 825px;
+    }
+    .text4 {
+        position: absolute;
+        top: 1200px;
+        left: 530px;
+        padding: 15px;
+        color: #000;
+        font-size: 50px;
+        display: block;
+        font-weight: 1000;
+        letter-spacing: -5px;
+        word-wrap: break-word;
+        width: 825px;
+    }
+}
+
+@media (max-width: 1920px) and (max-height: 1080px) {
+    header {
+        background: #fff;
+        box-shadow: 0 5px 10px black;
+    }
+    header .logo {
+        color: rgb(0,159,205);
+    }
+    header nav ul a {
+        color: rgb(0,159,205);
+    }
+    header nav ul li a:hover {
+        background: #000;
+        color: rgb(0, 130, 167);
+    }
+    nav ul li ul {
+        background: #fff;
+    }
+    nav ul li ul li {
+        border: 1px solid rgba(0,0,0,.1);
+    }
+    .text1 {
+        color: #fff;
+    }
+    .text2 {
+        color: #fff;
+    }
+    .text3 {
+        color: #000;
+    }
+    .text4 {
+        color: #000;
+    }
+    .more-detailed {
+        background: rgb(56,23,0);
+        color: white;
+    }
+    #dark {
+        background: #fff;
+        border: #fff;
+        color: rgb(0,159,205);
+    }
+    #dark:hover {
+        background: #000;
+        border: #000;
+        color: rgb(0, 130, 167);  
+    }
+    #light {
+        background-color: #000;
+        border: #000;
+        color: rgb(0,159,205);
+    }
+    #light:hover {
+        background: rgb(0,159,205);
+        border: rgb(0,159,205);
+        color: #000;  
+    }
+    .object {
+        background: rgb(0,159,205);
+    }
+    .object2 {
+        background: #fff;
+    }
+}
+
+@media (max-width: 1600px) and (max-height: 900px) {
+    header {
+        background: #fff;
+        box-shadow: 0 5px 10px black;
+    }
+    header .logo {
+        color: rgb(0,159,205);
+    }
+    header nav ul a {
+        color: rgb(0,159,205);
+    }
+    header nav ul li a:hover {
+        background: #000;
+        color: rgb(0, 130, 167);
+    }
+    nav ul li ul {
+        background: #fff;
+    }
+    nav ul li ul li {
+        border: 1px solid rgba(0,0,0,.1);
+    }
+    .text1 {
+        color: #fff;
+    }
+    .text2 {
+        color: #fff;
+    }
+    .text3 {
+        color: #000;
+    }
+    .text4 {
+        color: #000;
+    }
+    .more-detailed {
+        background: rgb(56,23,0);
+        color: white;
+    }
+    #dark {
+        background: #fff;
+        border: #fff;
+        color: rgb(0,159,205);
+    }
+    #dark:hover {
+        background: #000;
+        border: #000;
+        color: rgb(0, 130, 167);  
+    }
+    #light {
+        background-color: #000;
+        border: #000;
+        color: rgb(0,159,205);
+    }
+    #light:hover {
+        background: rgb(0,159,205);
+        border: rgb(0,159,205);
+        color: #000;  
+    }
+    .object {
+        background: rgb(0,159,205);
+    }
+    .object2 {
+        background: #fff;
+    }
+}
+
+@media (max-width: 1366px) and (max-height: 768px) {
+    header {
+        background: #fff;
+        box-shadow: 0 5px 10px black;
+    }
+    header .logo {
+        color: rgb(0,159,205);
+    }
+    header nav ul a {
+        color: rgb(0,159,205);
+    }
+    header nav ul li a:hover {
+        background: #000;
+        color: rgb(0, 130, 167);
+    }
+    nav ul li ul {
+        background: #fff;
+    }
+    nav ul li ul li {
+        border: 1px solid rgba(0,0,0,.1);
+    }
+    .text1 {
+        color: #fff;
+    }
+    .text2 {
+        color: #fff;
+    }
+    .text3 {
+        color: #000;
+    }
+    .text4 {
+        color: #000;
+    }
+    .more-detailed {
+        background: rgb(56,23,0);
+        color: white;
+    }
+    #dark {
+        background: #fff;
+        border: #fff;
+        color: rgb(0,159,205);
+    }
+    #dark:hover {
+        background: #000;
+        border: #000;
+        color: rgb(0, 130, 167);  
+    }
+    #light {
+        background-color: #000;
+        border: #000;
+        color: rgb(0,159,205);
+    }
+    #light:hover {
+        background: rgb(0,159,205);
+        border: rgb(0,159,205);
+        color: #000;  
+    }
+    .object {
+        background: rgb(0,159,205);
+    }
+    .object2 {
+        background: #fff;
+    }
+}
