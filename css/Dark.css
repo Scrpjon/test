@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+/* задний фон */
+body {
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    background-position: center;
+}
+/* все с вверхнией линией с кнопками */
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+    box-shadow: 0 5px 10px #000;
+}
+/* всё с лого */
+header .logo {
+    font-size: 20px;
+    font-weight: 900;
+    color: #fff;
+}
+/* расположение кнопок */
+header nav ul li {
+    position: relative;
+    float: left;
+}
+/* цвет текст */
+header nav ul a {
+    padding: 15px;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    font-weight: 700;
+}
+/* цвет заднего плана на тексте и цвет текста при наведении  */
+header nav ul li a:hover {
+    background: #fff;
+    color: #000;
+}
+/* меню закртое */
+nav ul li ul {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    width: 131px;
+    background: #000;
+    display: none;
+}
+/* вкладки меню */
+nav ul li ul li {
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.1);
+}
+/* вкладка меню вторая */
+nav ul li ul li ul {
+    width: 100%;
+    top: 49px;
+    left: -1px;
+}
+/* при наведение показывает */
+nav ul li:hover > ul {
+    display: initial;
+}
+
+img {
+    width: 100%;
+    height: 200vh;
+}
