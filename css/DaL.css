@@ -348,7 +348,7 @@ img {
     }
 }
 
-@media screen and (min-width: 1900px) and (min-height: 950px) {
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
     /* все с вверхнией линией с кнопками */
 header {
     width: 100%;
@@ -423,7 +423,7 @@ img {
 .text1 {
     position: absolute;
     top: 170px;
-    left: 750px;
+    left: 500px;
     padding: 15px;
     color: #fff;
     font-size: 70px;
@@ -521,12 +521,12 @@ img {
 }
 .object {
     height: 120vh;
-    width: 107%;
+    width: 105%;
     background: rgb(0, 130, 167);
 }
 .object2 {
     height: 100vh;
-    width: 107%;
+    width: 105%;
     background: #000;
 }   
 }
