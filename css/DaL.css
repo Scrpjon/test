@@ -1018,7 +1018,7 @@ img {
     }
 }
 
-@media (min-width: 1080px) and (min-height: 2400px) {
+@media (max-width: 1080px) and (max-height: 2400px) {
     #tets{
         left: 0px;
     }
