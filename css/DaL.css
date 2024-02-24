@@ -1713,7 +1713,7 @@ h1 {
     }
 }
 
-@media only screen and (max-device-width: 576px){
+@media only screen and (max-device-width: 459px){
     header {
         width: 100%;
         position: fixed;
@@ -1800,24 +1800,24 @@ h1 {
     }
     .text3 {
         position: absolute;
-        left: 300px;
-        top: 800px;
+        left: 70px;
+        top: 1370px;
         padding: 15px;
         color: #000;
-        font-size: 50px;
+        font-size: 75px;
         display: block;
         font-weight: 1000;
         letter-spacing: -5px;
         word-wrap: break-word;
-        width: 825px;
+        width: 1200px;
     }
     .text4 {
         position: absolute;
-        top: 870px;
-        left: 428px;
+        top: 1470px;
+        left: 250px;
         padding: 15px;
         color: #000;
-        font-size: 50px;
+        font-size: 75px;
         display: block;
         font-weight: 1000;
         letter-spacing: -5px;
@@ -1826,61 +1826,61 @@ h1 {
     }
     .text5 {
         position: absolute;
-        top: 998px;
-        left: 200px;
+        top: 1610px;
+        left: 400px;
         padding: 15px;
         color: #000;
-        font-size: 30px;
+        font-size: 70px;
         display: block;
         font-weight: 1000;
     }
     .text6 {
         position: absolute;
-        top: 998px;
-        left: 620px;
+        top: 1810px;
+        left: 400px;
         padding: 15px;
         color: #000;
-        font-size: 30px;
+        font-size: 75px;
         display: block;
         font-weight: 1000;
     }
     .text7 {
         position: absolute;
-        top: 998px;
-        left: 1000px;
+        top: 2010px;
+        left: 400px;
         padding: 15px;
         color: #000;
-        font-size: 30px;
+        font-size: 75px;
         display: block;
         font-weight: 1000;
     }
     .text8 {
         position: absolute;
-        top: 1200px;
-        left: 190px;
+        top: 2210px;
+        left: 400px;
         padding: 15px;
         color: #000;
-        font-size: 30px;
+        font-size: 75px;
         display: block;
         font-weight: 1000;
     }
     .text9 {
         position: absolute;
-        top: 1200px;
-        left: 600px;
+        top: 2410px;
+        left: 400px;
         padding: 15px;
         color: #000;
-        font-size: 30px;
+        font-size: 75px;
         display: block;
         font-weight: 1000;
     }
     .text10 {
         position: absolute;
-        top: 1200px;
-        left: 1000px;
+        top: 2600px;
+        left: 400px;
         padding: 15px;
         color: #000;
-        font-size: 30px;
+        font-size: 75px;
         display: block;
         font-weight: 1000;
     }
@@ -1944,69 +1944,72 @@ h1 {
         background: #fff;
     }
     .object3 {
-        height: 10vh;
-        width: 10vh;
+        height: 8vh;
+        width: 8vh;
         border-radius: 50%;
         background: rgb(0,159,205);
         position: absolute;
         z-index: 500;
-        top: 1000px;
-        left: 100px;
+        top: 1600px;
+        left: 150px;
     }
     .object4 {
-        height: 10vh;
-        width: 10vh;
+        height: 8vh;
+        width: 8vh;
         border-radius: 50%;
         background: rgb(0,159,205);
         position: absolute;
         z-index: 500;
         top: 1800px;
-        left: 500px;
+        left: 150px;
     }
     .object5 {
-        height: 10vh;
-        width: 10vh;
+        height: 8vh;
+        width: 8vh;
         border-radius: 50%;
         background: rgb(0,159,205);
         position: absolute;
         z-index: 500;
-        top: 1000px;
-        left: 900px;
+        top: 2000px;
+        left: 150px;
     }
     .object6 {
-        height: 10vh;
-        width: 10vh;
+        height: 8vh;
+        width: 8vh;
         border-radius: 50%;
         background: rgb(0,159,205);
         position: absolute;
         z-index: 500;
-        top: 1200px;
-        left: 100px;
+        top: 2200px;
+        left: 150px;
     }
     .object7 {
-        height: 10vh;
-        width: 10vh;
+        height: 8vh;
+        width: 8vh;
         border-radius: 50%;
         background: rgb(0,159,205);
         position: absolute;
         z-index: 500;
-        top: 1200px;
-        left: 500px;
+        top: 2400px;
+        left: 150px;
     }
     .object8 {
-        height: 10vh;
-        width: 10vh;
+        height: 8vh;
+        width: 8vh;
         border-radius: 50%;
         background: rgb(0,159,205);
         position: absolute;
         z-index: 500;
-        top: 1200px;
-        left: 900px;
+        top: 2590px;
+        left: 150px;
     }
     h1 {
         text-align: center;
         top: 50%;
-        transform: translateY(33%);
+        transform: translateY(55%);
         color: #fff;
+        font-size: 70px;
     }
 }
+
+
