@@ -885,7 +885,7 @@ img {
     }
 }
 
-@media (min-width: 750px) and (min-height: 1334px) {
+/@media (min-width: 750px) and (min-height: 1334px) {
     header .logo {
         font-size: 70px;
         font-weight: 900;
