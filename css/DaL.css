@@ -885,7 +885,7 @@ img {
     }
 }
 
-/@media (min-width: 750px) and (min-height: 1334px) {
+@media (max-width: 750px) and (max-height: 1334px) {
     header .logo {
         font-size: 70px;
         font-weight: 900;
@@ -1018,7 +1018,7 @@ img {
     }
 }
 
-@media (max-width: 1080px) and (max-height: 2400px) {
+/@media (max-width: 1080px) and (max-height: 2400px) {
     #tets{
         left: 0px;
     }
