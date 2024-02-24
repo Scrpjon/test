@@ -918,7 +918,7 @@ img {
         background: #fff;
         border: #fff;
         color: rgb(0,159,205);
-        font-size: 30px;
+        font-size: 35px;
         font-weight: 700;
         height: 80px;
         width: 230px;
@@ -927,7 +927,7 @@ img {
         background-color: #000;
         border: #000;
         color: rgb(0,159,205);
-        font-size: 30px;
+        font-size: 35px;
         font-weight: 700;
         height: 80px;
         width: 230px;
@@ -1015,6 +1015,159 @@ img {
         right: -25%;
         top: 30%;
         position: absolute;
+    }
+}
+
+@media (min-width: 1080px) and (min-height: 2400px) {
+    #tets{
+        left: 0px;
+    }
+    header .logo {
+        font-size: 80px;
+        font-weight: 900;
+        color: #000;
+    }
+    header nav ul a {
+        position: relative;
+        padding: 20px;
+        color: #000;
+        font-size: 60px;
+        display: block;
+        font-weight: 700;
+        letter-spacing: -7px;
+        left: 200px;
+    }
+    nav ul li ul {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        width: 350px;
+        background: #fff;
+        display: none;
+        top: 90px;
+        left: 200px;
+    }
+    nav ul li ul li ul {
+        width: 100%;
+        width: 350px;
+        top: 100px;
+        left: -1px;
+    }
+    #dark {
+        background: #fff;
+        border: #fff;
+        color: rgb(0,159,205);
+        font-size: 50px;
+        font-weight: 700;
+        height: 100px;
+        width: 350px;
+    }
+    #light {
+        background-color: #000;
+        border: #000;
+        color: rgb(0,159,205);
+        font-size: 35px;
+        font-weight: 700;
+        height: 80px;
+        width: 230px;
+    }
+    .text3 {
+        position: absolute;
+        left: 180px;
+        top: 1600px;
+        padding: 15px;
+        color: #000;
+        font-size: 71px;
+        display: block;
+        font-weight: 1000;
+        letter-spacing: -5px;
+        word-wrap: break-word;
+        width: 1080px;
+    }
+    .text4 {
+        position: absolute;
+        top: 1750px;
+        left: 330px;
+        padding: 15px;
+        color: #000;
+        font-size: 71px;
+        display: block;
+        font-weight: 1000;
+        letter-spacing: -5px;
+        word-wrap: break-word;
+        width: 825px;
+    }
+    .text1 {
+        position: absolute;
+        top: 200px;
+        left: 310px;
+        padding: 15px;
+        color: #fff;
+        font-size: 100px;
+        display: block;
+        font-weight: 1000;
+        letter-spacing: -5px;
+    }
+    .text2 {
+        position: absolute;
+        top: 400px;
+        left: 100px;
+        padding: 15px;
+        color: #fff;
+        font-size: 50px;
+        display: block;
+        font-weight: 1000;
+        word-wrap: break-word;
+        width: 900px;
+    }
+    .more-detailed {
+        width: 503px;
+        height: 100px;
+        cursor: pointer;
+        border: none;
+        background: rgb(56,23,0);
+        color: white;
+        text-transform: uppercase;
+        font-family: Arial;
+        font-size: 35px;
+        letter-spacing: 3px;
+        border-radius: 40px;
+        outline: none;
+        margin-top: 1100px;
+        margin-left: 115px;
+        position: absolute;
+        top: 0;
+    }
+    .object {
+        height: 65vh;
+        width: 128%;
+        background: rgb(0, 130, 167);
+    }
+    .object2 {
+        height: 50vh;
+        width: 100%;
+        background: #000;
+    }
+    img {
+        width: 800px;
+        height: 700px;
+        right: -25%;
+        top: 35%;
+        position: absolute;
+    }
+    header {
+        width: 100%;
+        height: 200px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 8%;
+        box-shadow: 0 5px 10px black;
     }
 }
 
