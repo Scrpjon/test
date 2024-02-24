@@ -1726,7 +1726,7 @@ h1 {
         align-items: center;
         padding: 0 8%;
         box-shadow: 0 5px 10px black;
-        height: 150px;
+        height: 170px;
     }
     header .logo {
         font-size: 90px;
@@ -1737,12 +1737,12 @@ h1 {
         position: relative;
     }
     header nav ul a {
-        line-height: 60px;
-        padding: 10px;
+        line-height: 50px;
+        padding: 20px;
         color: #000;
-        font-size: 70px;
+        font-size: 75px;
         display: block;
-        font-weight: 1000;
+        font-weight: 900;
     }
     header nav ul li a:hover {
         background: #000;
@@ -1809,7 +1809,7 @@ h1 {
         font-weight: 1000;
         letter-spacing: -5px;
         word-wrap: break-word;
-        width: 1200px;
+        width: 800px;
     }
     .text4 {
         position: absolute;
@@ -1822,7 +1822,7 @@ h1 {
         font-weight: 1000;
         letter-spacing: -5px;
         word-wrap: break-word;
-        width: 825px;
+        width: 800px;
     }
     .text5 {
         position: absolute;
