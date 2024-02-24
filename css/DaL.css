@@ -958,6 +958,132 @@ h1 {
         position: absolute;
         top: 0;
     }
+    .text5 {
+        position: absolute;
+        top: 1300px;
+        left: 240px;
+        padding: 15px;
+        color: #000;
+        font-size: 35px;
+        display: block;
+        font-weight: 1000;
+    }
+    .text6 {
+        position: absolute;
+        top: 1300px;
+        left: 750px;
+        padding: 15px;
+        color: #000;
+        font-size: 35px;
+        display: block;
+        font-weight: 1000;
+    }
+    .text7 {
+        position: absolute;
+        top: 1300px;
+        left: 1180px;
+        padding: 15px;
+        color: #000;
+        font-size: 35px;
+        display: block;
+        font-weight: 1000;
+    }
+    .text8 {
+        position: absolute;
+        top: 1600px;
+        left: 225px;
+        padding: 15px;
+        color: #000;
+        font-size: 35px;
+        display: block;
+        font-weight: 1000;
+    }
+    .text9 {
+        position: absolute;
+        top: 1600px;
+        left: 720px;
+        padding: 15px;
+        color: #000;
+        font-size: 35px;
+        display: block;
+        font-weight: 1000;
+    }
+    .text10 {
+        position: absolute;
+        top: 1600px;
+        left: 1170px;
+        padding: 15px;
+        color: #000;
+        font-size: 35px;
+        display: block;
+        font-weight: 1000;
+    }
+    .object3 {
+        height: 10vh;
+        width: 10vh;
+        border-radius: 50%;
+        background: rgb(0,159,205);
+        position: absolute;
+        z-index: 500;
+        top: 1300px;
+        left: 100px;
+    }
+    .object4 {
+        height: 10vh;
+        width: 10vh;
+        border-radius: 50%;
+        background: rgb(0,159,205);
+        position: absolute;
+        z-index: 500;
+        top: 1300px;
+        left: 600px;
+    }
+    .object5 {
+        height: 10vh;
+        width: 10vh;
+        border-radius: 50%;
+        background: rgb(0,159,205);
+        position: absolute;
+        z-index: 500;
+        top: 1300px;
+        left: 1050px;
+    }
+    .object6 {
+        height: 10vh;
+        width: 10vh;
+        border-radius: 50%;
+        background: rgb(0,159,205);
+        position: absolute;
+        z-index: 500;
+        top: 1600px;
+        left: 100px;
+    }
+    .object7 {
+        height: 10vh;
+        width: 10vh;
+        border-radius: 50%;
+        background: rgb(0,159,205);
+        position: absolute;
+        z-index: 500;
+        top: 1600px;
+        left: 600px;
+    }
+    .object8 {
+        height: 10vh;
+        width: 10vh;
+        border-radius: 50%;
+        background: rgb(0,159,205);
+        position: absolute;
+        z-index: 500;
+        top: 1600px;
+        left: 1050px;
+    }
+    h1 {
+        text-align: center;
+        top: 50%;
+        transform: translateY(60%);
+        color: #fff;
+    }
 }
 
 @media (max-width: 1366px) and (max-height: 768px) {
@@ -1079,6 +1205,66 @@ h1 {
         word-wrap: break-word;
         width: 825px;
     }
+    .text5 {
+        position: absolute;
+        top: 998px;
+        left: 200px;
+        padding: 15px;
+        color: #000;
+        font-size: 30px;
+        display: block;
+        font-weight: 1000;
+    }
+    .text6 {
+        position: absolute;
+        top: 998px;
+        left: 620px;
+        padding: 15px;
+        color: #000;
+        font-size: 30px;
+        display: block;
+        font-weight: 1000;
+    }
+    .text7 {
+        position: absolute;
+        top: 998px;
+        left: 1000px;
+        padding: 15px;
+        color: #000;
+        font-size: 30px;
+        display: block;
+        font-weight: 1000;
+    }
+    .text8 {
+        position: absolute;
+        top: 1200px;
+        left: 190px;
+        padding: 15px;
+        color: #000;
+        font-size: 30px;
+        display: block;
+        font-weight: 1000;
+    }
+    .text9 {
+        position: absolute;
+        top: 1200px;
+        left: 600px;
+        padding: 15px;
+        color: #000;
+        font-size: 30px;
+        display: block;
+        font-weight: 1000;
+    }
+    .text10 {
+        position: absolute;
+        top: 1200px;
+        left: 1000px;
+        padding: 15px;
+        color: #000;
+        font-size: 30px;
+        display: block;
+        font-weight: 1000;
+    }
     .more-detailed {
         width: 303px;
         height: 60px;
@@ -1137,6 +1323,72 @@ h1 {
         height: 80vh;
         width: 100%;
         background: #000;
+    }
+    .object3 {
+        height: 10vh;
+        width: 10vh;
+        border-radius: 50%;
+        background: rgb(0,159,205);
+        position: absolute;
+        z-index: 500;
+        top: 1000px;
+        left: 100px;
+    }
+    .object4 {
+        height: 10vh;
+        width: 10vh;
+        border-radius: 50%;
+        background: rgb(0,159,205);
+        position: absolute;
+        z-index: 500;
+        top: 1000px;
+        left: 500px;
+    }
+    .object5 {
+        height: 10vh;
+        width: 10vh;
+        border-radius: 50%;
+        background: rgb(0,159,205);
+        position: absolute;
+        z-index: 500;
+        top: 1000px;
+        left: 900px;
+    }
+    .object6 {
+        height: 10vh;
+        width: 10vh;
+        border-radius: 50%;
+        background: rgb(0,159,205);
+        position: absolute;
+        z-index: 500;
+        top: 1200px;
+        left: 100px;
+    }
+    .object7 {
+        height: 10vh;
+        width: 10vh;
+        border-radius: 50%;
+        background: rgb(0,159,205);
+        position: absolute;
+        z-index: 500;
+        top: 1200px;
+        left: 500px;
+    }
+    .object8 {
+        height: 10vh;
+        width: 10vh;
+        border-radius: 50%;
+        background: rgb(0,159,205);
+        position: absolute;
+        z-index: 500;
+        top: 1200px;
+        left: 900px;
+    }
+    h1 {
+        text-align: center;
+        top: 50%;
+        transform: translateY(33%);
+        color: #fff;
     }
 }
 
@@ -1234,6 +1486,66 @@ h1 {
         word-wrap: break-word;
         width: 800px;
     }
+    .text5 {
+        position: absolute;
+        top: 998px;
+        left: 200px;
+        padding: 15px;
+        color: #000;
+        font-size: 30px;
+        display: block;
+        font-weight: 1000;
+    }
+    .text6 {
+        position: absolute;
+        top: 998px;
+        left: 620px;
+        padding: 15px;
+        color: #000;
+        font-size: 30px;
+        display: block;
+        font-weight: 1000;
+    }
+    .text7 {
+        position: absolute;
+        top: 998px;
+        left: 980px;
+        padding: 15px;
+        color: #000;
+        font-size: 30px;
+        display: block;
+        font-weight: 1000;
+    }
+    .text8 {
+        position: absolute;
+        top: 1200px;
+        left: 190px;
+        padding: 15px;
+        color: #000;
+        font-size: 30px;
+        display: block;
+        font-weight: 1000;
+    }
+    .text9 {
+        position: absolute;
+        top: 1200px;
+        left: 600px;
+        padding: 15px;
+        color: #000;
+        font-size: 30px;
+        display: block;
+        font-weight: 1000;
+    }
+    .text10 {
+        position: absolute;
+        top: 1200px;
+        left: 980px;
+        padding: 15px;
+        color: #000;
+        font-size: 30px;
+        display: block;
+        font-weight: 1000;
+    }
     .more-detailed {
         width: 303px;
         height: 60px;
@@ -1268,6 +1580,72 @@ h1 {
         right: 0%;
         top: 30%;
         position: absolute;
+    }
+    .object3 {
+        height: 10vh;
+        width: 10vh;
+        border-radius: 50%;
+        background: rgb(0,159,205);
+        position: absolute;
+        z-index: 500;
+        top: 1000px;
+        left: 100px;
+    }
+    .object4 {
+        height: 10vh;
+        width: 10vh;
+        border-radius: 50%;
+        background: rgb(0,159,205);
+        position: absolute;
+        z-index: 500;
+        top: 1000px;
+        left: 500px;
+    }
+    .object5 {
+        height: 10vh;
+        width: 10vh;
+        border-radius: 50%;
+        background: rgb(0,159,205);
+        position: absolute;
+        z-index: 500;
+        top: 1000px;
+        left: 900px;
+    }
+    .object6 {
+        height: 10vh;
+        width: 10vh;
+        border-radius: 50%;
+        background: rgb(0,159,205);
+        position: absolute;
+        z-index: 500;
+        top: 1200px;
+        left: 100px;
+    }
+    .object7 {
+        height: 10vh;
+        width: 10vh;
+        border-radius: 50%;
+        background: rgb(0,159,205);
+        position: absolute;
+        z-index: 500;
+        top: 1200px;
+        left: 500px;
+    }
+    .object8 {
+        height: 10vh;
+        width: 10vh;
+        border-radius: 50%;
+        background: rgb(0,159,205);
+        position: absolute;
+        z-index: 500;
+        top: 1200px;
+        left: 900px;
+    }
+    h1 {
+        text-align: center;
+        top: 50%;
+        transform: translateY(33%);
+        color: #fff;
     }
 }
 
