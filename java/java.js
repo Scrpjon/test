@@ -23,3 +23,5 @@ if(activeTheme === null || activeTheme === 'light') { // Если значени
 } else if (activeTheme === 'dark') { // Если значение равно 'dark' - применяем темную
     applyTheme('dark');
 }
+
+

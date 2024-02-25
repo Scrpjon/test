@@ -37,6 +37,44 @@ header nav ul li {
     position: relative;
     float: left;
 }
+/* бургер меню span это палки*/
+.header__burger-btn {
+    display: none;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: aqua;
+    top: 4px;
+    left: 150px;
+}
+.header__burger-btn span {
+    position: absolute;
+    width: 90px;
+    height: 10px;
+    background-color: #fff;
+    left: 15px;
+    transition: transform .5s, opacity .5s, background-color .5s;
+}
+.header__burger-btn span:nth-child(1) {
+    transform: translateY(-30px);
+}
+.header__burger-btn span:nth-child(3) {
+    transform: translateY(30px);
+}
+/* анимации бургера */
+.header.open .header__burger-btn span {
+    background-color: #000; 
+}
+.header.open .header__burger-btn span:nth-child(1) {
+    transform: translateY(0) rotate(45deg); 
+}
+.header.open .header__burger-btn span:nth-child(2) {
+    opacity: 0;
+}
+.header.open .header__burger-btn span:nth-child(3) {
+    transform: translateY(0) rotate(-45deg); 
+}
 /* цвет текст */
 header nav ul a {
     padding: 15px;
@@ -1737,12 +1775,12 @@ h1 {
         position: relative;
     }
     header nav ul a {
-        line-height: 60px;
+        line-height: 100px;
         padding: 10px;
         color: #000;
-        font-size: 61px;
+        font-size: 70px;
         display: block;
-        font-weight: 900;
+        font-weight: 1000;
     }
     header nav ul li a:hover {
         background: #000;
@@ -1768,6 +1806,29 @@ h1 {
     nav ul li:hover > ul {
         display: initial;
     }
+    .header__burger-btn {
+        display: block;
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        border: none;
+        background-color: rgb(0,159,205);
+        top: 20px;
+        left: 1100px;
+        z-index: 2;
+    }
+    .navT {
+        position: absolute;
+        left: 1280px;
+        top: 0;
+        background-color: #fff;
+        padding: 150px 0px 20px 20px;
+        width: 560px;
+        transition: transform 0.5s;
+    }
+    .header.open nav {
+        transform: translateX(-100%);
+    }  
     img {
         width: 830px;
         height: 730px;
