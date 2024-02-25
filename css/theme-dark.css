@@ -45,6 +45,17 @@ nav ul li ul li {
 .object2 {
     background: #000;
 }
+/* бургер меню span это палки*/
+.header__burger-btn {
+    background-color: aqua;
+}
+.header__burger-btn span {
+    background-color: #000;
+}
+/* анимации бургера */
+.header.open .header__burger-btn span {
+    background-color: #fff; 
+}
 @media screen and (max-width: 1000px) and (max-height: 1505px) {
     header {
         background: #000;
@@ -666,5 +677,11 @@ nav ul li ul li {
     }
     h1 {
         color: #000;
+    }
+    .header__burger-btn {
+        background-color: rgb(0, 130, 167);
+    }
+    .navT {
+        background-color: #000;
     }
 }

@@ -1862,7 +1862,7 @@ h1 {
     }
     .text3 {
         position: absolute;
-        left: 70px;
+        left: 300px;
         top: 1370px;
         padding: 15px;
         color: #000;
@@ -1871,12 +1871,12 @@ h1 {
         font-weight: 1000;
         letter-spacing: -5px;
         word-wrap: break-word;
-        width: 1200px;
+        width: 700px;
     }
     .text4 {
         position: absolute;
         top: 1470px;
-        left: 250px;
+        left: 330px;
         padding: 15px;
         color: #000;
         font-size: 75px;
@@ -1945,6 +1945,7 @@ h1 {
         font-size: 75px;
         display: block;
         font-weight: 1000;
+        width: 800px;
     }
     .more-detailed {
         width: 450px;
@@ -1986,7 +1987,7 @@ h1 {
         background-color: #000;
         border: #000;
         color: rgb(0,159,205);
-        font-size: 0px;
+        font-size: 70px;
         font-weight: 700;
         height: 150px;
         width: 555px;
