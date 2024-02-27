@@ -1,0 +1,120 @@
+/* задний фон */
+body {
+    background-color: #000;
+}
+/* все с вверхнией линией с кнопками */
+header {
+    background: #000;
+    box-shadow: 0 5px 10px rgb(0, 130, 167);
+}
+/* всё с лого */
+header .logo {
+    color: rgb(0, 130, 167);
+}
+
+/* цвет текст */
+header nav ul a {
+    color: rgb(0, 130, 167);
+}
+/* цвет заднего плана на тексте и цвет текста при наведении  */
+header nav ul li a:hover {
+    background: #fff;
+    color: rgb(0,159,205);
+}
+/* меню закртое */
+nav ul li ul {
+    background: #000;
+}
+/* вкладки меню */
+nav ul li ul li {
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+.change-theme[data-theme="dark"] {
+    display: none;
+}
+
+.change-theme[data-theme="light"] {
+    display: block;
+}
+
+.object {
+    background: rgb(0, 130, 167);
+}
+
+.object2 {
+    background: #000;
+}
+/* бургер меню span это палки*/
+.header__burger-btn span {
+    background-color: #000;
+}
+/* анимации бургера */
+.header.open .header__burger-btn span {
+    background-color: #fff; 
+}
+.navT {
+    background-color: #000;
+}
+/* цвет текст */
+header nav ul a {
+    color: rgb(0, 130, 167);
+}
+
+.theme button {
+    cursor: pointer;
+}
+#dark {
+    background: #fff;
+    border: #fff;
+    color: rgb(0,159,205);
+}
+#dark:hover {
+    background: rgb(0,159,205);
+    border: rgb(0,159,205);
+    color: #fff;  
+}
+#light {
+    background-color: #000;
+    border: #000;
+    color: rgb(0,159,205);
+}
+#light:hover {
+    background: #fff;
+    border: #fff;
+    color: rgb(0,159,205);  
+}
+
+.object1 {
+    background: rgb(0, 130, 167);
+}
+.object2 {
+    background: #000;
+}
+.text1 {
+    color: #000;
+}
+.text2 {
+    color: #000;
+}
+.text3 {
+    color: #000;
+}
+.text4 {
+    color: #000;
+}
+.text5 {
+    color: #000;
+}
+.text6 {
+    color: #000;
+}
+.text7 {
+    color: #000;
+}
+.text8 {
+    color: #fff;
+}
+.text9 {
+    color: #fff;
+}

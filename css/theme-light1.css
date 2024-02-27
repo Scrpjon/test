@@ -1,0 +1,60 @@
+/* задний фон */
+body {
+    background-color: #fff;
+}
+/* все с вверхнией линией с кнопками */
+header {
+    background: #fff;
+    box-shadow: 0 5px 10px rgb(0,159,205);
+}
+/* всё с лого */
+header .logo {
+    color: rgb(0,159,205);
+}
+
+/* цвет текст */
+header nav ul a {
+    color: rgb(0,159,205);
+}
+/* цвет заднего плана на тексте и цвет текста при наведении  */
+header nav ul li a:hover {
+    background: #000;
+    color: rgb(0, 130, 167);
+}
+/* меню закртое */
+nav ul li ul {
+    background: #fff;
+}
+/* вкладки меню */
+nav ul li ul li {
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+.change-theme[data-theme="dark"] {
+    display: block;
+}
+
+.change-theme[data-theme="light"] {
+    display: none;
+}
+
+#dark {
+    background: #fff;
+    border: #fff;
+    color: rgb(0,159,205);
+}
+#dark:hover {
+    background: #000;
+    border: #000;
+    color: rgb(0, 130, 167);  
+}
+#light {
+    background-color: #000;
+    border: #000;
+    color: rgb(0,159,205);
+}
+#light:hover {
+    background: rgb(0,159,205);
+    border: rgb(0,159,205);
+    color: #000;  
+}

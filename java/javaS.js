@@ -8,7 +8,7 @@ changeThemeButtons.forEach(button => {
 });
 
 function applyTheme(themeName) {
-    document.querySelector('[title="theme"]').setAttribute('href', `css/theme-${themeName}.css`);
+    document.querySelector('[title="theme"]').setAttribute('href', `../css/theme-${themeName}1.css`);
     changeThemeButtons.forEach(button => {
         button.style.display = 'block';
     });
