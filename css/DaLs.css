@@ -2426,40 +2426,40 @@ label, a{ /*при наведении на стрелки или переклю�
         width: 1150px;
     }
     .buy {
-        z-index: 100;
-        width: 200px;
-        height: 45px;
+        z-index: 1200;
+        width: 400px;
+        height: 100px;
         cursor: pointer;
         border: none;
         background: rgb(56,23,0);
         color: white;
         text-transform: uppercase;
         font-family: Arial;
-        font-size: 23px;
+        font-size: 60px;
         letter-spacing: 3px;
         border-radius: 40px;
         outline: none;
-        margin-top: 530px;
-        margin-left: 200px;
+        margin-top: 2150px;
+        margin-left: 430px;
         position: absolute;
         top: 0;
     }
     .buy2 {
-        z-index: 100;
-        width: 200px;
-        height: 45px;
+        z-index: 1100;
+        width: 400px;
+        height: 100px;
         cursor: pointer;
         border: none;
         background: rgb(56,23,0);
         color: white;
         text-transform: uppercase;
         font-family: Arial;
-        font-size: 23px;
+        font-size: 60px;
         letter-spacing: 3px;
         border-radius: 40px;
         outline: none;
-        margin-top: 1170px;
-        margin-left: 200px;
+        margin-top: 4120px;
+        margin-left: 430px;
         position: absolute;
         top: 0;
     }
