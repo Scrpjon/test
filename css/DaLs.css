@@ -2246,7 +2246,7 @@ label, a{ /*при наведении на стрелки или переклю�
     #switch3:checked ~ #controls label:nth-child(2),
     #switch4:checked ~ #controls label:nth-child(3),
     #switch5:checked ~ #controls label:nth-child(4){
-        background: url('prev.png') no-repeat; /*заливка фона картинкой без повторений*/
+        background: url('prev1.png') no-repeat; /*заливка фона картинкой без повторений*/
         float: left;
         margin: -330px 0 0 -180px; /*сдвиг влево*/
         display: block;
@@ -2260,7 +2260,7 @@ label, a{ /*при наведении на стрелки или переклю�
     #switch3:checked ~ #controls label:nth-child(4),
     #switch4:checked ~ #controls label:nth-child(5),
     #switch5:checked ~ #controls label:nth-child(1){
-        background: url('next.png') no-repeat; /*заливка фона картинкой без повторений*/
+        background: url('next1.png') no-repeat; /*заливка фона картинкой без повторений*/
         float: right;
         margin: -330px -280px 0 0; /*сдвиг вправо*/
         display: block;
